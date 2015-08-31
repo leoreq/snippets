@@ -1,0 +1,7 @@
+ERROR:root:FIXME: Unimplemented - put('sexy', 'sexy thang')
+ERROR:root:FIXME: Unimplemented - get('sexy')
+ERROR:root:FIXME: Unimplemented - put('aloha', 'compa\xc3\xb1ero')
+ERROR:root:FIXME: Unimplemented - viewAll([])
+ERROR:root:FIXME: Unimplemented - viewAll([])
+ERROR:root:FIXME: Unimplemented - viewAll([])
+ERROR:root:FIXME: Unimplemented - viewAll([])
