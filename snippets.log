@@ -5,3 +5,105 @@ ERROR:root:FIXME: Unimplemented - viewAll([])
 ERROR:root:FIXME: Unimplemented - viewAll([])
 ERROR:root:FIXME: Unimplemented - viewAll([])
 ERROR:root:FIXME: Unimplemented - viewAll([])
+INFO:root:Constructing parser
+INFO:root:Constructing parser
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+ERROR:root:FIXME: Unimplemented - get('aloha')
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+ERROR:root:FIXME: Unimplemented - get('aloha')
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+ERROR:root:FIXME: Unimplemented - put('aloha', 'jsaojdasoijado')
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+ERROR:root:FIXME: Unimplemented - put('aloha', 'jsaojdasoijado')
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+ERROR:root:FIXME: Unimplemented - get('aloha')
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
