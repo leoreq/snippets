@@ -1,112 +1,3 @@
-ERROR:root:FIXME: Unimplemented - put('sexy', 'sexy thang')
-ERROR:root:FIXME: Unimplemented - get('sexy')
-ERROR:root:FIXME: Unimplemented - put('aloha', 'compa\xc3\xb1ero')
-ERROR:root:FIXME: Unimplemented - viewAll([])
-ERROR:root:FIXME: Unimplemented - viewAll([])
-ERROR:root:FIXME: Unimplemented - viewAll([])
-ERROR:root:FIXME: Unimplemented - viewAll([])
-INFO:root:Constructing parser
-INFO:root:Constructing parser
-INFO:root:Constructing parsers
-DEBUG:root:Constructing put subparser
-INFO:root:Constructing parsers
-DEBUG:root:Constructing put subparser
-INFO:root:Constructing parsers
-DEBUG:root:Constructing put subparser
-INFO:root:Constructing parsers
-DEBUG:root:Constructing put subparser
-INFO:root:Constructing parsers
-DEBUG:root:Constructing put subparser
-DEBUG:root:Constructing get subparser
-INFO:root:Constructing parsers
-DEBUG:root:Constructing put subparser
-DEBUG:root:Constructing get subparser
-INFO:root:Constructing parsers
-DEBUG:root:Constructing put subparser
-DEBUG:root:Constructing get subparser
-INFO:root:Constructing parsers
-DEBUG:root:Constructing put subparser
-DEBUG:root:Constructing get subparser
-INFO:root:Constructing parsers
-DEBUG:root:Constructing put subparser
-DEBUG:root:Constructing get subparser
-INFO:root:Constructing parsers
-DEBUG:root:Constructing put subparser
-DEBUG:root:Constructing get subparser
-INFO:root:Constructing parsers
-DEBUG:root:Constructing put subparser
-DEBUG:root:Constructing get subparser
-INFO:root:Constructing parsers
-DEBUG:root:Constructing put subparser
-DEBUG:root:Constructing get subparser
-INFO:root:Constructing parsers
-DEBUG:root:Constructing put subparser
-DEBUG:root:Constructing get subparser
-INFO:root:Constructing parsers
-DEBUG:root:Constructing put subparser
-DEBUG:root:Constructing get subparser
-INFO:root:Constructing parsers
-DEBUG:root:Constructing put subparser
-DEBUG:root:Constructing get subparser
-INFO:root:Constructing parsers
-DEBUG:root:Constructing put subparser
-DEBUG:root:Constructing get subparser
-INFO:root:Constructing parsers
-DEBUG:root:Constructing put subparser
-DEBUG:root:Constructing get subparser
-INFO:root:Constructing parsers
-DEBUG:root:Constructing put subparser
-DEBUG:root:Constructing get subparser
-INFO:root:Constructing parsers
-DEBUG:root:Constructing put subparser
-DEBUG:root:Constructing get subparser
-INFO:root:Constructing parsers
-DEBUG:root:Constructing put subparser
-DEBUG:root:Constructing get subparser
-INFO:root:Constructing parsers
-DEBUG:root:Constructing put subparser
-DEBUG:root:Constructing get subparser
-INFO:root:Constructing parsers
-DEBUG:root:Constructing put subparser
-DEBUG:root:Constructing get subparser
-INFO:root:Constructing parsers
-DEBUG:root:Constructing put subparser
-DEBUG:root:Constructing get subparser
-ERROR:root:FIXME: Unimplemented - get('aloha')
-INFO:root:Constructing parsers
-DEBUG:root:Constructing put subparser
-DEBUG:root:Constructing get subparser
-ERROR:root:FIXME: Unimplemented - get('aloha')
-INFO:root:Constructing parsers
-DEBUG:root:Constructing put subparser
-DEBUG:root:Constructing get subparser
-INFO:root:Constructing parsers
-DEBUG:root:Constructing put subparser
-DEBUG:root:Constructing get subparser
-ERROR:root:FIXME: Unimplemented - put('aloha', 'jsaojdasoijado')
-INFO:root:Constructing parsers
-DEBUG:root:Constructing put subparser
-DEBUG:root:Constructing get subparser
-ERROR:root:FIXME: Unimplemented - put('aloha', 'jsaojdasoijado')
-INFO:root:Constructing parsers
-DEBUG:root:Constructing put subparser
-DEBUG:root:Constructing get subparser
-ERROR:root:FIXME: Unimplemented - get('aloha')
-INFO:root:Constructing parsers
-DEBUG:root:Constructing put subparser
-DEBUG:root:Constructing get subparser
-INFO:root:Constructing parsers
-DEBUG:root:Constructing put subparser
-DEBUG:root:Constructing get subparser
-INFO:root:Constructing parsers
-DEBUG:root:Constructing put subparser
-DEBUG:root:Constructing get subparser
-INFO:root:Constructing parsers
-DEBUG:root:Constructing put subparser
-DEBUG:root:Constructing get subparser
-INFO:root:Constructing parsers
-DEBUG:root:Constructing put subparser
-DEBUG:root:Constructing get subparser
 DEBUG:root:Connecting to PostgreSQL
 DEBUG:root:Database connection established.
 INFO:root:Constructing parsers
@@ -117,8 +8,57 @@ DEBUG:root:Database connection established.
 INFO:root:Constructing parsers
 DEBUG:root:Constructing put subparser
 DEBUG:root:Constructing get subparser
+DEBUG:root:Storing snippet - put('love', 'is the best ever happened')
+DEBUG:root:snippet stores succesfully
 DEBUG:root:Connecting to PostgreSQL
 DEBUG:root:Database connection established.
 INFO:root:Constructing parsers
 DEBUG:root:Constructing put subparser
 DEBUG:root:Constructing get subparser
+DEBUG:root:Storing snippet - put('ideas', 'mode htings to mention')
+DEBUG:root:snippet stores succesfully
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Searching for the snippet -  get('ideas')
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Searching for the snippet -  get('ideas')
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Searching for the snippet -  get('ideas')
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Searching for the snippet -  get('ideas')
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Searching for the snippet -  get('ideas')
+DEBUG:root:snippet retrieved
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Searching for the snippet -  get('ideas')
+DEBUG:root:snippet retrieved
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Searching for the snippet -  get('ideas')
+DEBUG:root:snippet retrieved

@@ -17,25 +17,25 @@ def put(name, snippet):
 
     """
     logging.debug("Storing snippet - put({!r}, {!r})".format(name, snippet))
-    cursor=connection.cursor()#this will establish a conection to the psql table
+    cursor=connection.cursor() #this will establish a conection to the psql table
     command="insert into snippets (keyword,message) values (%s,%s)"
-    cursor.execute(command,(name,snippet))#instructions that are being sent to the database, substituting the values for keyword and message that will be sent
-    connection.commit()#save changes to the database
+    cursor.execute(command,(name,snippet)) #instructions that are being sent to the database, substituting the values for keyword and message that will be sent
+    connection.commit() #save changes to the database
     logging.debug('snippet stores succesfully')
     return name, snippet
     
 def get(name):
     """Retrieve the snippet with a given name.
 
-    If there is no such snippet, return "snippet not found"
+    If there is no such snippet, return ""
 
     Returns the snippet.
     """
     logging.debug("Searching for the snippet -  get({!r})".format(name))
     cursor=connection.cursor()
-    command="select * from snippets where keyword = '%s'"
-    cursor.execute(command,(name))#instructions that are being sent to the database, substituting the values for keyword and message that will be sent
-    snippet=connection.fetchone()#returns a tuple of values for each field
+    command="select * from snippets where keyword = %s"
+    cursor.execute(command,(name,))
+    snippet=cursor.fetchone() 
     logging.debug('snippet retrieved')
     return snippet
     
@@ -69,11 +69,8 @@ def main():
     arguments = parser.parse_args(sys.argv[1:])
     
     # Convert parsed arguments from Namespace to dictionary
-    print("Before vars argument, {!r}").format(arguments)
     arguments = vars(arguments)
-    print(" After vars argumets: {!r}").format(arguments)
     command = arguments.pop("command")
-    print("the pop command output {!r}").format(command)
 
     if command == "put":
         name, snippet = put(**arguments)
