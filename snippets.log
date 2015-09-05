@@ -290,3 +290,103 @@ DEBUG:root:Constructing get subparser
 DEBUG:root:Constructing viewall subparser
 DEBUG:root:loading all snippets -  viewall()
 DEBUG:root:all snippets retrieved
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing viewall subparser
+DEBUG:root:loading all snippets -  viewall()
+DEBUG:root:all snippets retrieved
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing viewall subparser
+DEBUG:root:Searching for the snippet -  get('insert')
+DEBUG:root:snippet retrieved
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing viewall subparser
+DEBUG:root:Searching for the snippet -  get('insertasdas')
+DEBUG:root:snippet retrieved
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing viewall subparser
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing viewall subparser
+DEBUG:root:Searching for the snippet -  get('insertasdas\xc3\xa7')
+DEBUG:root:snippet retrieved
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing viewall subparser
+DEBUG:root:Searching for the snippet -  get('insertasdas\xc3\xa7')
+DEBUG:root:Snippet not found
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing viewall subparser
+DEBUG:root:Searching for the snippet -  get('insertasdas\xc3\xa7')
+DEBUG:root:Snippet not found
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing viewall subparser
+DEBUG:root:Searching for the snippet -  get('insert')
+DEBUG:root:snippet retrieved
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing viewall subparser
+DEBUG:root:Storing snippet - put('fantasy', ' crazy offwordly ideas')
+DEBUG:root:snippet stored succesfully
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing viewall subparser
+DEBUG:root:Storing snippet - put('fantasy', ' crazy offwordly ideasasdadsdsadsa')
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing viewall subparser
+DEBUG:root:Storing snippet - put('fantasy', ' crazy offwordly ideasasdadsdsadsa')
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing viewall subparser
+DEBUG:root:Storing snippet - put('fantasy', ' crazy offwordly ideasasdadsdsadsa')
+DEBUG:root:snippet stored succesfully
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing viewall subparser
+DEBUG:root:Storing snippet - put('fantasy', ' crazy offwordly ideasasdadsdsaadasasdaddsa')
+DEBUG:root:snippet stored succesfully

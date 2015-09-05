@@ -18,16 +18,21 @@ def put(name, snippet):
     """
     logging.debug("Storing snippet - put({!r}, {!r})".format(name, snippet))
     cursor=connection.cursor() #this will establish a conection to the psql table
-    command="insert into snippets (keyword,message) values (%s,%s)"
-    cursor.execute(command,(name,snippet)) #instructions that are being sent to the database, substituting the values for keyword and message that will be sent
-    connection.commit() #save changes to the database
-    logging.debug('snippet stores succesfully')
+    try:
+        command="insert into snippets (keyword,message) values (%s,%s)"
+        cursor.execute(command,(name,snippet)) 
+    except:
+        connection.rollback()
+        command="update snippets set message=%s where keyword=%s"
+        cursor.execute(command,(snippet,name)) 
+    connection.commit() 
+    logging.debug('snippet stored succesfully')
     return name, snippet
     
 def get(name):
     """Retrieve the snippet with a given name.
 
-    If there is no such snippet, return ""
+    If there is no such snippet, return "ERROR: Snippet not found , try with a different keyword."
 
     Returns the snippet.
     """
@@ -36,8 +41,10 @@ def get(name):
     command="select * from snippets where keyword = %s"
     cursor.execute(command,(name,))
     snippet=cursor.fetchone() 
-    print(type(snippet))
-    logging.debug('snippet retrieved')
+    if not snippet:
+        snippet="ERROR: Snippet not found , try with a different keyword."
+        logging.debug('Snippet not found')
+    else:logging.debug('snippet retrieved')
     return snippet
     
 def viewall():
@@ -85,7 +92,9 @@ def main():
         print("Stored {!r} as {!r}".format(snippet, name))
     elif command == "get":
         snippet = get(**arguments)
-        print("Retrieved snippet: {!r}".format(snippet))
+        if snippet=="ERROR: Snippet not found , try with a different keyword.":
+            print("{!r}".format(snippet))
+        else:print("Retrieved snippet: {!r}".format(snippet))
     elif command =="viewall":
         snipdict=viewall()
         #print("Retrieved snippet: {!r}".format(snipdict))
