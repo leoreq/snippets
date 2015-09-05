@@ -62,3 +62,231 @@ DEBUG:root:Constructing put subparser
 DEBUG:root:Constructing get subparser
 DEBUG:root:Searching for the snippet -  get('ideas')
 DEBUG:root:snippet retrieved
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Storing snippet - put('solido', 'es algo que es bien duro vijte')
+DEBUG:root:snippet stores succesfully
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing viewall subparser
+DEBUG:root:Storing snippet - put('ex', 'is the girl that was and is no more')
+DEBUG:root:snippet stores succesfully
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing viewall subparser
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing viewall subparser
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing viewall subparser
+DEBUG:root:loading all snippets -  viewall()
+DEBUG:root:all snippets retrieved
+ERROR:root:testing viewall()
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing viewall subparser
+DEBUG:root:loading all snippets -  viewall()
+DEBUG:root:all snippets retrieved
+ERROR:root:testing viewall()
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing viewall subparser
+DEBUG:root:loading all snippets -  viewall()
+DEBUG:root:all snippets retrieved
+ERROR:root:testing viewall()
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing viewall subparser
+DEBUG:root:loading all snippets -  viewall()
+DEBUG:root:all snippets retrieved
+ERROR:root:testing viewall()
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing viewall subparser
+DEBUG:root:loading all snippets -  viewall()
+DEBUG:root:all snippets retrieved
+ERROR:root:testing viewall()
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing viewall subparser
+DEBUG:root:loading all snippets -  viewall()
+DEBUG:root:all snippets retrieved
+ERROR:root:testing viewall()
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing viewall subparser
+DEBUG:root:loading all snippets -  viewall()
+DEBUG:root:all snippets retrieved
+ERROR:root:testing viewall()
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing viewall subparser
+DEBUG:root:loading all snippets -  viewall()
+DEBUG:root:all snippets retrieved
+ERROR:root:testing viewall()
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing viewall subparser
+DEBUG:root:loading all snippets -  viewall()
+DEBUG:root:all snippets retrieved
+ERROR:root:testing viewall()
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing viewall subparser
+DEBUG:root:loading all snippets -  viewall()
+DEBUG:root:all snippets retrieved
+ERROR:root:testing viewall()
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing viewall subparser
+DEBUG:root:loading all snippets -  viewall()
+DEBUG:root:all snippets retrieved
+ERROR:root:testing viewall()
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing viewall subparser
+DEBUG:root:loading all snippets -  viewall()
+DEBUG:root:all snippets retrieved
+ERROR:root:testing viewall()
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing viewall subparser
+DEBUG:root:loading all snippets -  viewall()
+DEBUG:root:all snippets retrieved
+ERROR:root:testing viewall()
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing viewall subparser
+DEBUG:root:loading all snippets -  viewall()
+DEBUG:root:all snippets retrieved
+ERROR:root:testing viewall()
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing viewall subparser
+DEBUG:root:Searching for the snippet -  get('insert')
+DEBUG:root:snippet retrieved
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing viewall subparser
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing viewall subparser
+DEBUG:root:Searching for the snippet -  get('insert')
+DEBUG:root:snippet retrieved
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing viewall subparser
+DEBUG:root:loading all snippets -  viewall()
+DEBUG:root:all snippets retrieved
+ERROR:root:testing viewall()
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing viewall subparser
+DEBUG:root:loading all snippets -  viewall()
+DEBUG:root:all snippets retrieved
+ERROR:root:testing viewall()
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing viewall subparser
+DEBUG:root:loading all snippets -  viewall()
+DEBUG:root:all snippets retrieved
+ERROR:root:testing viewall()
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing viewall subparser
+DEBUG:root:loading all snippets -  viewall()
+DEBUG:root:all snippets retrieved
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing viewall subparser
+DEBUG:root:loading all snippets -  viewall()
+DEBUG:root:all snippets retrieved

@@ -36,16 +36,21 @@ def get(name):
     command="select * from snippets where keyword = %s"
     cursor.execute(command,(name,))
     snippet=cursor.fetchone() 
+    print(type(snippet))
     logging.debug('snippet retrieved')
     return snippet
     
-def viewAll():
+def viewall():
     """Retrieve the names available.
 
     Returns the name list .
     """
-    snippetList=[]
-    logging.error("FIXME: Unimplemented - viewAll({!r})".format(snippetList))
+    logging.debug("loading all snippets -  viewall()")
+    cursor=connection.cursor()
+    command="select * from snippets ;"
+    cursor.execute(command,)
+    snippetList=cursor.fetchall() 
+    logging.debug('all snippets retrieved')
     return snippetList
     
 def main():
@@ -66,6 +71,9 @@ def main():
     get_parser = subparsers.add_parser("get", help="Retrieve a snippet with a name")
     get_parser.add_argument("name",help="name of the snippet to retrieve.")
     
+    # Subparser for the viewall command
+    logging.debug("Constructing viewall subparser")
+    viewall_parser = subparsers.add_parser("viewall", help="Retrieve all names and snippets loaded.")
     arguments = parser.parse_args(sys.argv[1:])
     
     # Convert parsed arguments from Namespace to dictionary
@@ -78,6 +86,12 @@ def main():
     elif command == "get":
         snippet = get(**arguments)
         print("Retrieved snippet: {!r}".format(snippet))
+    elif command =="viewall":
+        snipdict=viewall()
+        #print("Retrieved snippet: {!r}".format(snipdict))
+        print("(keyword | text )")
+        for keyword,text in snipdict:
+            print("({!r} , {!r})").format(keyword,text)
 
 if __name__ == "__main__":
     main()
