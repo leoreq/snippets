@@ -17,17 +17,18 @@ def put(name, snippet):
 
     """
     logging.debug("Storing snippet - put({!r}, {!r})".format(name, snippet))
-    cursor=connection.cursor() #this will establish a conection to the psql table
-    try:
-        command="insert into snippets (keyword,message) values (%s,%s)"
-        cursor.execute(command,(name,snippet)) 
-    except:
-        connection.rollback()
-        command="update snippets set message=%s where keyword=%s"
-        cursor.execute(command,(snippet,name)) 
-    connection.commit() 
-    logging.debug('snippet stored succesfully')
-    return name, snippet
+    #cursor=connection.cursor() #this will establish a conection to the psql table
+    with connection,connection.cursor() as cursor:
+        try:
+            command="insert into snippets (keyword,message) values (%s,%s)"
+            cursor.execute(command,(name,snippet)) 
+        except:
+            connection.rollback()
+            command="update snippets set message=%s where keyword=%s"
+            cursor.execute(command,(snippet,name)) 
+        #connection.commit() 
+        logging.debug('snippet stored succesfully')
+        return name, snippet
     
 def get(name):
     """Retrieve the snippet with a given name.
@@ -37,10 +38,12 @@ def get(name):
     Returns the snippet.
     """
     logging.debug("Searching for the snippet -  get({!r})".format(name))
-    cursor=connection.cursor()
-    command="select * from snippets where keyword = %s"
-    cursor.execute(command,(name,))
-    snippet=cursor.fetchone() 
+    with connection,connection.cursor() as cursor:
+        #cursor=connection.cursor()
+        command="select * from snippets where keyword = %s"
+        cursor.execute(command,(name,))
+        snippet=cursor.fetchone() 
+        #connection.commit()
     if not snippet:
         snippet="ERROR: Snippet not found , try with a different keyword."
         logging.debug('Snippet not found')

@@ -390,3 +390,58 @@ DEBUG:root:Constructing get subparser
 DEBUG:root:Constructing viewall subparser
 DEBUG:root:Storing snippet - put('fantasy', ' crazy offwordly ideasasdadsdsaadasasdaddsa')
 DEBUG:root:snippet stored succesfully
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing viewall subparser
+DEBUG:root:Storing snippet - put('aloha', 'es un saludo')
+DEBUG:root:snippet stored succesfully
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing viewall subparser
+DEBUG:root:Storing snippet - put('aloha', 'esmas que  un saludo')
+DEBUG:root:snippet stored succesfully
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing viewall subparser
+DEBUG:root:loading all snippets -  viewall()
+DEBUG:root:all snippets retrieved
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing viewall subparser
+DEBUG:root:Storing snippet - put('aloha', 'esmas que  un saludoqwqwqwqw')
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing viewall subparser
+DEBUG:root:Storing snippet - put('aloha', 'esmas que  un saludoqwqwqwqw')
+DEBUG:root:snippet stored succesfully
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing viewall subparser
+DEBUG:root:Storing snippet - put('aloha', 'esmas que  un saludoqwqwq')
+DEBUG:root:snippet stored succesfully
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing viewall subparser
+DEBUG:root:Storing snippet - put('aloha', 'esmas que  un saludoqwqwq')
+DEBUG:root:snippet stored succesfully
