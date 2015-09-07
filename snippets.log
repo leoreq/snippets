@@ -445,3 +445,392 @@ DEBUG:root:Constructing get subparser
 DEBUG:root:Constructing viewall subparser
 DEBUG:root:Storing snippet - put('aloha', 'esmas que  un saludoqwqwq')
 DEBUG:root:snippet stored succesfully
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:loading all snippets -  catalog()
+DEBUG:root:all snippets retrieved
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:loading all snippets -  catalog()
+DEBUG:root:all snippets retrieved
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:loading all snippets -  catalog()
+DEBUG:root:all snippets retrieved
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:loading all snippets -  catalog()
+DEBUG:root:all snippets retrieved
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:loading all snippets -  catalog()
+DEBUG:root:{!r}
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:loading all snippets -  catalog()
+DEBUG:root:[('aloha',), ('ex',), ('fantasy',), ('idea',), ('ideas',), ('inse2',), ('insert',), ('insert2',), ('love',), ('solido',)]
+DEBUG:root:<type 'list'>
+DEBUG:root:all snippets retrieved
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Searching for the snippet -  get('ola')
+DEBUG:root:Snippet not found
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Searching for the snippet -  get('ide')
+DEBUG:root:Snippet not found
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Searching for the snippet -  get('idea')
+DEBUG:root:snippet retrieved
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Searching for the snippet -  get('ide')
+DEBUG:root:Snippet not found
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Searching for the snippet -  get('ide')
+DEBUG:root:Snippet not found
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Searching for the snippet -  get('ide')
+DEBUG:root:Snippet not found
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Searching for the snippet -  get('ide')
+DEBUG:root:Snippet not found
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Searching for the snippet -  get('idea')
+DEBUG:root:snippet retrieved
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Searching for the snippet -  get('idea')
+DEBUG:root:snippet retrieved
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Searching for the snippet -  get('idea')
+DEBUG:root:snippet retrieved
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Searching for the snippet -  get('idea')
+DEBUG:root:snippet retrieved
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Searching for the snippet -  get('idea')
+DEBUG:root:snippet retrieved
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Searching for the snippet -  get('idea')
+DEBUG:root:snippet retrieved
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Searching for the snippet -  get('idea')
+DEBUG:root:snippet retrieved
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Searching for the snippet -  search('idea')
+DEBUG:root:DEBUGGING : Checking how the string is concatenated : "select * from snippets where keyword like '%'idea'%' order by keyword"
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Searching for the snippet -  search('ide')
+DEBUG:root:DEBUGGING : Checking how the string is concatenated : "select * from snippets where keyword like '%'ide'%' order by keyword"
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Searching for the snippet -  search('ide')
+DEBUG:root:DEBUGGING : Checking how the string is concatenated : "select * from snippets where keyword like '%'d'%' order by keyword"
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Searching for the snippet -  search('ide')
+DEBUG:root:DEBUGGING : Checking how the string is concatenated : "select * from snippets where keyword like '%ide%' order by keyword"
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Searching for the snippet -  search('ide')
+DEBUG:root:DEBUGGING : Checking how the string is concatenated : "select * from snippets where keyword like '%ide%' order by keyword;"
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Searching for the snippet -  search('ide')
+DEBUG:root:DEBUGGING : Checking how the string is concatenated : "select * from snippets where keyword like '%ide%' order by keyword;"
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Searching for the snippet -  search('ide')
+DEBUG:root:DEBUGGING : Checking how the string is concatenated : "select * from snippets where keyword like '%ide%' order by keyword;"
+DEBUG:root:DEBUGGING : Checking the result of search [('idea', 'some random idea'), ('ideas', 'mode htings to mention')]
+DEBUG:root:snippets retrieved
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Searching for the snippet -  search('ani')
+DEBUG:root:DEBUGGING : Checking how the string is concatenated : "select * from snippets where keyword like '%ani%' and not hidden order by keyword;"
+DEBUG:root:DEBUGGING : Checking the result of search []
+DEBUG:root:Snippets not found
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Searching for the snippet -  search('idea')
+DEBUG:root:DEBUGGING : Checking how the string is concatenated : "select * from snippets where keyword like '%idea%' and not hidden order by keyword;"
+DEBUG:root:DEBUGGING : Checking the result of search [('idea', 'some random idea', False), ('ideas', 'mode htings to mention', False)]
+DEBUG:root:snippets retrieved
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:loading all snippets -  catalog()
+DEBUG:root:all snippets retrieved
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Storing snippet - put('idea', 'ideasss')
+DEBUG:root:snippet stored succesfully
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Searching for the snippet -  search('id')
+DEBUG:root:DEBUGGING : Checking how the string is concatenated : "select * from snippets where keyword like '%id%' and not hidden order by keyword;"
+DEBUG:root:DEBUGGING : Checking the result of search [('idea', 'ideasss', False), ('ideas', 'mode htings to mention', False), ('solido', 'es algo que es bien duro vijte', False)]
+DEBUG:root:snippets retrieved
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parsers
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:loading all snippets -  catalog()
+DEBUG:root:all snippets retrieved
